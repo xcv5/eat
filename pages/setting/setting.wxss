@@ -59,7 +59,6 @@ page{
 .nav_right .nav_right_items{  
   /*浮动向左*/  
   float: left;  
-  /*每个item设置宽度是50%*/  
   width: 120px;  
   height: 120px;  
   text-align: left;  
