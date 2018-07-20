@@ -1,0 +1,10 @@
+<map id="map" 
+longitude="{{longitude}}" 
+latitude="{{latitude}}" 
+scale="{{scale}}" 
+controls="{{controls}}" 
+bindcontroltap="controltap" 
+markers="{{markers}}" 
+bindmarkertap="markertap" 
+bindregionchange="regionchange" 
+show-location style="width: 100%; height: {{view.Height}}px;"></map>

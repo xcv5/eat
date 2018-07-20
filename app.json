@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/food/food",
+    "pages/setting/setting",
+    "pages/map/map"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3b3d3c",
+    "navigationBarTitleText": "今天吃什么",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#e5e5e5",
+    "selectedColor": "#fe5d02",
+    "backgroundColor": "#3b3d3c",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/food/food",
+        "text": "吃",
+        "iconPath": "img/food.png",
+        "selectedIconPath": "img/selectedfood.png"
+      },
+      
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "img/set.png",
+        "selectedIconPath": "img/selectedset.png"
+      }
+    ]
+  }
+}
